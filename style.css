@@ -1,0 +1,20 @@
+.mainContent{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr;
+    background-color: white;
+    height: 100vh;
+}
+
+.header{
+    background-color: aqua;
+    grid-area: 1 / 2 / 2 / 4;
+}
+
+.sidebar{
+    background-color: red;
+    grid-area: 1 / 1 / 6 / 2;
+}
+.content{
+    background-color: orange;
+    grid-area: 2 / 2 / 6 / 4;
+}
