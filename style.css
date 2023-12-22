@@ -8,6 +8,8 @@
 .header {
     background-color: aqua;
     grid-area: 1 / 2 / 2 / 4;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .sidebar {
