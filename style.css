@@ -1,20 +1,36 @@
-.mainContent{
+.mainContent {
     display: grid;
     grid-template-columns: 0.5fr 2fr 1fr;
     background-color: white;
     height: 100vh;
 }
 
-.header{
+.header {
     background-color: aqua;
     grid-area: 1 / 2 / 2 / 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.sidebar{
+.sidebar {
     background-color: red;
     grid-area: 1 / 1 / 6 / 2;
+    display: grid;
+    padding-top: 3rem;
 }
-.content{
+
+.content {
     background-color: orange;
     grid-area: 2 / 2 / 6 / 4;
+}
+
+.navbar ul {
+    list-style: none;
+    background-color: antiquewhite;
+    display: grid;
+    gap: 15px;
+    place-content: baseline;
+}
+.navbar ul li {
+    border: black 1px solid;
 }
