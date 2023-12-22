@@ -1,15 +1,13 @@
 .mainContent {
     display: grid;
-    grid-template-columns: 0.5fr 2fr 1fr;
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-rows: repeat(5,1fr);
     background-color: white;
-    height: 100vh;
 }
 
 .header {
     background-color: aqua;
     grid-area: 1 / 2 / 2 / 4;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .sidebar {
@@ -31,6 +29,75 @@
     gap: 15px;
     place-content: baseline;
 }
+
 .navbar ul li {
     border: black 1px solid;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.frist,
+.section {
+    align-items: center;
+}
+
+.searchBar {
+    display: grid;
+    grid-template-columns: 50px auto;
+    height: 1.5rem;
+}
+
+.search {
+    border-radius: 15px;
+    border: none;
+}
+.userInfo {
+    justify-self: end;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 15px;
+}
+
+.profile {
+    border-radius: 50%;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+
+.bell {
+    justify-self: end;
+    align-self: start;
+}
+.second, .section{
+    display: grid;
+}
+.user{
+    display: grid;
+    grid-auto-flow: column;
+    justify-self: start;
+}
+.userProfile{
+   border-radius: 50%;
+   background-color: black;
+   width: 70px;
+   height: 70px;
+   justify-self: end;
+   align-self: center;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(3,80px);;
+    gap : 5px;
+    justify-self: end;
+}
+.button{
+    border-radius: 5px;
+    height: 2rem;
+    border: none;
 }
