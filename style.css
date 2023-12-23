@@ -142,9 +142,10 @@
     justify-self: end;
     align-self: end;
 }
-.rightSide{
+.rightContent{
     display: grid;
     grid-template-rows: repeat(2,1fr);
+    gap: 60px;
 }
 .annoucements{
     display: grid;
@@ -156,4 +157,21 @@
 }
 .annoucement{
     border-bottom: 1px solid gray;
+}
+.trending{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    padding: 30px;
+    background-color: wheat;
+}
+.trendingUser{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    
+}
+.trendingProfile{
+    background-color: black;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
 }
