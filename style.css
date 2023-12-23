@@ -1,3 +1,8 @@
+:root{
+    --blue : hsl(201.18deg 78.9% 46.47%);
+    --gray : hsl(214.29deg 31.82% 91.37%);
+    --orange : hsl(41.91deg 86.9% 55.1%);
+}
 .mainContent {
     display: grid;
     grid-template-columns: 0.5fr 2fr;
