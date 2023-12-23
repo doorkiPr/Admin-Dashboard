@@ -3,8 +3,14 @@
     --gray: hsl(214.29deg 31.82% 91.37%);
     --orange: hsl(41.91deg 86.9% 55.1%);
 }
-
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2")format('.woff2');
+}
 .mainContent {
+    font-family: 'Roboto', sans-serif;
     display: grid;
     grid-template-columns: 0.5fr 2fr;
     grid-template-rows: repeat(5, 1fr);
