@@ -144,17 +144,24 @@
 }
 
 .card {
-    background-color: wheat;
+    background-color: white;
     height: 200px;
     display: grid;
     grid-template-rows: 1f 2fr 1fr;
-    border-left: 6px yellow solid;
+    border-left: 8px var(--orange) solid;
     border-radius: 5px;
     padding: 15px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
+.cardTitle{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.cardDesc{
+    color: grey;
+    font-weight: 500;
+}
 .cardIcons {
     display: grid;
     grid-template-columns: repeat(3, 35px);
