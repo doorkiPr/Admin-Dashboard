@@ -65,12 +65,13 @@
 .searchBar {
     display: grid;
     grid-template-columns: 50px auto;
-    height: 1.5rem;
+    height: 2rem;
 }
 
 .search {
     border-radius: 15px;
     border: none;
+    background-color: var(--gray);
 }
 
 .userInfo {
