@@ -29,6 +29,8 @@
     grid-area: 1 / 1 / 6 / 2;
     display: grid;
     padding-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .content {
@@ -48,14 +50,13 @@
 
 .navbar ul {
     list-style: none;
-    background-color: antiquewhite;
     display: grid;
     gap: 15px;
     place-content: baseline;
 }
 
 .navbar ul li {
-    border: black 1px solid;
+    color: white;
 }
 
 .section {
