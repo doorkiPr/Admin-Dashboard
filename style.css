@@ -180,12 +180,20 @@
     grid-template-rows: repeat(3, 1fr);
     padding: 30px;
     gap: 15px;
-    background-color: wheat;
+    background-color: white;
+    border-radius: 8px;
     padding-top: 30px;
 }
 
 .annoucement {
     border-bottom: 1px solid gray;
+}
+.annoucementTitle{
+    font-weight: 600;
+}
+.annoucementDesc{
+    color: gray;
+    font-size: 250;
 }
 
 .trending {
@@ -193,6 +201,8 @@
     grid-template-rows: repeat(3, 1fr);
     padding: 30px;
     background-color: wheat;
+    background-color: white;
+    border-radius: 8px;
 }
 
 .trendingUser {
@@ -206,4 +216,7 @@
     border-radius: 50%;
     width: 45px;
     height: 45px;
+}
+.trendingDesc{
+    color: gray;
 }
